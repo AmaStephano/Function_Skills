@@ -103,6 +103,7 @@ def repeat_string(input_string, num_of_times):
 #    than 0" if higher than zero and "Lower than 0" if lower
 #    than zero. If the integer is 0 print "Zero".
 
+
 def print_sign(num):
     if num > 0:
         print "Higher than 0"
@@ -115,6 +116,7 @@ def print_sign(num):
 # 6. Write a function called 'is_divisible_by_three' that takes an integer and returns a
 #    boolean (True or False), depending on whether the number
 #    is evenly divisible by 3.
+
 
 def is_divisible_by_three(input_int):
 
