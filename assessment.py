@@ -40,12 +40,12 @@ PART TWO:
     Hi, Amanda Stephano, we're from the same place!
 
     >>> addfive = increment(5)
-    >>> addfive
+    >>> addfive(5)
     10
 
-    >>> addfive = increment(20)
-    >>> addfive
-    40
+    >>> addfive = increment(5)
+    >>> addfive(20)
+    25
 
     >>> append_to_list(5, [1, 2, 3, 4])
     [1, 2, 3, 4, 5]
@@ -156,10 +156,11 @@ def increment(x=1):
     def add(y):
         sum = x + y
         return sum
-    return (add(x))
+    return add
 
 addfive = increment(5)
-addfive = increment(20)
+addfive(5)
+addfive(20)
 
 
 def append_to_list(num, list_of_nums):
